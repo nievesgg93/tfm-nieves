@@ -130,7 +130,7 @@
                                clef.line="2"
                                clef.shape="G"
                                lines="5"/>
-                               
+                                
                      <staffDef n="2"
                                label="Alto"
                                label.abbr="A."
