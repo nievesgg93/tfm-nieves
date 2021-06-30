@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="http://music-encoding.googlecode.com/svn/tags/MEI2013_v2.1.1/schemata/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.googlecode.com/svn/tags/MEI2013_v2.1.1/schemata/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="2013">
+     <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Hoy comamos y bebamos</title>
+            <title type="work">Égloga 6</title>
+            <title type="subtitle">an electronic transcription</title>
+            <respStmt>
+               <persName cert="low"
+                         role="creator"
+                         dbkey="11850553X"
+                         authURI="http://d-nb.info/gnd" 
+                         authority="GND">Juan del Encina
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <workDesc>
+         <work>
+            <titleStmt>
+               <title>Hoy comamos y bebamos</title>
+               <title type="work">Égloga 6</title>
+               <respStmt>
+                  <persName cert="low" authURI="http://d-nb.info/gnd" authority="GND">Juan del Encina</persName>
+               </respStmt>
+            </titleStmt>
+            <key pname="d" mode="doric">Re-Dórico</key>
+            <meter count="3" unit="4"/>
+            <tempo>unclear</tempo>
+
+        <incip>
+               <incipCode form="parsons">*rurdddruudddrd</incipCode>
+               <score>
+                  <scoreDef meter.count="3" meter.unit="4">
+                     <staffGrp>
+                        <staffDef lines="5"
+                                  n="1"
+                                  meter.count="3"
+                                  meter.unit="4"
+                                  clef.line="2"
+                                  clef.shape="G"/>
+                     </staffGrp>
+                  </scoreDef>
+
+                  <section>
+                     <measure n="1">
+                        <staff n="1">
+                           <layer n="1">
+                              <note pname="s" oct="0" dur="0"/>
+                              <note pname="e" oct="4" dur="4"/>
+                              <note pname="f" oct="4" dur="4"/>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure n="2">
+                        <staff n="1">
+                           <layer n="1">
+                              <note pname="g" oct="4" dur="2"/>
+                              <note pname="g" oct="4" dur="4"/>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure n="3">
+                        <staff n="1">
+                           <layer n="1">
+                              <note pname="g" oct="4" dur="4"/>
+                              <note pname="e" oct="4" dur="4"/>
+                              <note pname="f" oct="4" dur="4"/>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure n="4">
+                        <staff n="1">
+                           <layer n="1">
+                              <note pname="g" oct="4" dur="2"/>
+                              <note pname="g" oct="4" dur="4"/>
+                           </layer>
+                        </staff>
+                     </measure>
+                  </section>
+               </score>
+            </incip>
+          <history>
+               <creation>
+                  <date notbefore="2004" notafter="2004"/>
+               </creation>
+            </history>
+            <perfMedium>
+               <instrumentation>
+                  <instrVoice code="va">Soprano</instrVoice>
+                  <instrVoice code="vc">Alto</instrVoice>
+                  <instrVoice code="vd">Tenor</instrVoice>
+                  <instrVoice code="vf">Bajo</instrVoice>
+               </instrumentation>
+            </perfMedium>
+            <classification>
+               <termList>
+                  <term classcode="#OCLC_DDC">
+                     <identifier>782</identifier>
+                     <title>Vocal music</title>
+                  </term>
+                  <term classcode="#OSWD">
+                     <identifier>4063783-9</identifier>
+                     <title>Música Vocal</title>
+                  </term>
+               </termList>
+            </classification>
+         </work>
+        </workDesc>
+       </fileDesc>
+     </meiHead>
+     <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef meter.count="3" meter.unit="4">
+                  <pgHead>
+                     <title>
+                        <rend halign="center">Égloga 6</rend>
+                     </title>
+                  </pgHead>
+                  <staffGrp symbol="bracket" barthru="true">
+                     <staffDef n="1"
+                               label="Soprano"
+                               label.abbr="S."
+                               clef.line="2"
+                               clef.shape="G"
+                               lines="5"/>
+                               
+                     <staffDef n="2"
+                               label="Alto"
+                               label.abbr="A."
+                               clef.line="2"
+                               clef.shape="G"
+                               lines="5"/>
+                     <staffDef n="3"
+                               label="Tenor"
+                               label.abbr="T."
+                               clef.line="2"
+                               clef.dis.place="below"
+                               clef.dis="8"
+                               clef.shape="G"
+                               lines="5"/>
+                     <staffDef n="4"
+                               label="Bajo"
+                               label.abbr="B."
+                               clef.line="4"
+                               clef.shape="F"
+                               lines="5"/>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <measure n="1" xml:id="compás_1" width="232">
+                     <staff n="1">
+                        <layer n="1">
+                           <rest dur="4"/>                             
+                           <note xml:id="mi_negra_1.1"
+                                 pname="e"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                           <verse n="1">
+                      		<syl>Hoy</syl>
+                    	   </verse>
+                    	</note>
+                           <note xml:id="fa_negra_1.1"
+                                 pname="f"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>co-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <rest dur="4"/>
+                           <note xml:id="do_negra_1.2"
+                                 pname="c"
+                                 accid="s"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>Hoy</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="re_negra_1.2"
+                                 pname="d"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>co-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <rest dur="4"/>
+                           <note xml:id="la_negra_1.3.1"
+                                 pname="a"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up"
+                                 accid.ges="f">
+                             <verse n="1">
+                      		    <syl>Hoy</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_negra_1.3.2"
+                                 pname="a"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up"
+                                 accid.ges="f">
+                             <verse n="1">
+                      		    <syl>co-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <rest dur="4"/>
+                           <note xml:id="la_negra_1.4"
+                                 pname="a"
+                                 oct="2"
+                                 dur="4"
+                                 stem.dir="up"
+                                 accid.ges="f">
+                             <verse n="1">
+                      		    <syl>Hoy</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="re_negra_1.4"
+                                 pname="d"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up"
+                                 accid.ges="f">
+                             <verse n="1">
+                      		    <syl>co-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                </measure>
+                <measure n="2" xml:id="compás_2" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="sol_blanca_2.1"
+                                 pname="g"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>ma-</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="sol_negra_2.1"
+                                 pname="g"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="i">
+                            <verse n="1">
+                      		 <syl>mos-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                              <note xml:id="mi_blanca_2.2"
+                                    pname="e"
+                                    oct="4"
+                                    dur="2"
+                                    stem.dir="up">
+                      		   <verse n="1">
+                      		 <syl>ma-</syl>
+                    	    </verse>
+                    	   </note>
+                              <note xml:id="mi_negra_2.2"
+                                    pname="e"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up">
+                      		   <verse n="1">
+                      		 <syl>mos-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="do_blanca_2.3"
+                                 pname="c"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>ma-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="do_negra_2.3"
+                                 pname="c"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>mos-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="do_blanca_2.4"
+                                 pname="c"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>ma-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="do_negra_2.4"
+                                 pname="c"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>mos-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                    </measure>
+                    <measure n="3" xml:id="compás_3" width="144">
+                     <staff n="1">
+                        <layer n="1">
+                          <note xml:id="sol_negra_3.1"
+                                 pname="g"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="t">
+                            <verse n="1">
+                      		 <syl>-</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="mi_negra_3.1"
+                                 pname="e"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>y</syl>
+                    	    </verse>
+                    	   </note>
+                            <note xml:id="fa_negra_3.1"
+                                 pname="f"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>be-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="re_negra_3.2"
+                                 pname="d"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="do_negra_3.2"
+                                 pname="c"
+                                 accid="s"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>y</syl>
+                    	      </verse>
+                    	   </note>
+                            <note xml:id="re_negra_3.2.2"
+                                 pname="d"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>be-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <note xml:id="sol_negra_3.3"
+                                 pname="g"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>y</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_blanca_3.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>be-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="4">
+                        <layer n="1">
+                           <note xml:id="si_negra_3.4"
+                                 pname="b"
+                                 accid="f"
+                                 oct="2"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_negra_3.4"
+                                 pname="a"
+                                 oct="2"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>y</syl>
+                    	      </verse>
+                    	   </note>
+                          <note xml:id="re_negra_3.4"
+                                 pname="d"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		    <syl>be-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                   </measure>
+                   <measure n="4" xml:id="compás_4" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="sol_blanca_4.1"
+                                 pname="g"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>ba-</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="sol_negra_4.1"
+                                 pname="g"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="i">
+                            <verse n="1">
+                      		 <syl>mos-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                              <note xml:id="mi_blanca_4.2"
+                                    pname="e"
+                                    oct="4"
+                                    dur="2"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>ba-</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="mi_negra_4.2"
+                                    pname="e"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up"
+                                    tie="i">
+                               <verse n="1">
+                      		    <syl>mos-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="do_blanca_4.3"
+                                 pname="c"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>ba-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="do_negra_4.3"
+                                 pname="c"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="down"
+                                 tie="i">
+                             <verse n="1">
+                      		    <syl>mos-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="do_blanca_4.4"
+                                 pname="c"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>ba-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="do_negra_4.4"
+                                 pname="c"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="i">
+                             <verse n="1">
+                      		    <syl>mos-</syl>
+                    	     </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                  </measure>
+                  <measure n="5" xml:id="compás_5" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="sol_negra_5.1"
+                                 pname="g"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="t">
+                            <verse n="1">
+                      		 <syl>-</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="fa_negra_5.1"
+                                 pname="f"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>y</syl>
+                    	    </verse>
+                    	   </note>
+                            <note xml:id="sol_negra_5.1.2"
+                                 pname="g"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>can-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                              <note xml:id="mi_negra_5.2"
+                                    pname="e"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up"
+                                    tie="t">
+                                <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="re_negra_5.2"
+                                    pname="d"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>y</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="mi_negra_5.2"
+                                    pname="e"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>can-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="do_negra_5.3"
+                                 pname="c"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="down"
+                                 tie="t">
+                             <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_negra_5.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>y</syl>
+                    	      </verse>
+                    	   </note>
+                            <note xml:id="do_negra_5.3.2"
+                                 pname="c"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>can-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="do_negra_5.4"
+                                 pname="c"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="t">
+                             <verse n="1">
+                      		    <syl>mos-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="re_negra_5.4"
+                                 pname="d"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>y</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="do_negra_5.4.2"
+                                 pname="c"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>can-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                  </measure>
+                   <measure n="6" xml:id="compás_6" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="la_blanca_6.1"
+                                 pname="a"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>te-</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="la_negra_6.1"
+                                 pname="a"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>mos</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                              <note xml:id="fa_blanca_6.2"
+                                    pname="f"
+                                    oct="4"
+                                    dur="2"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>te-</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="fa_negra_6.2"
+                                    pname="f"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>mos</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="do_blanca_6.3"
+                                 pname="c"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="down">
+                            <verse n="1">
+                      		    <syl>te-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="do_negra_6.3"
+                                 pname="c"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="down">
+                            <verse n="1">
+                      		    <syl>mos</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="fa_blanca_6.4"
+                                 pname="f"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>te-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="fa_negra_6.4"
+                                 pname="f"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>mos</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                  </measure>
+                  <measure n="7" xml:id="compás_7" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="sol_negra_7.1"
+                                 pname="g"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>y</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="fa_blanca_7.1"
+                                 pname="f"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>hol-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                              <note xml:id="mi_negra_7.2"
+                                    pname="e"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>y</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="re_blanca_7.2"
+                                    pname="d"
+                                    oct="4"
+                                    dur="2"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>hol-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="do_negra_7.3"
+                                 pname="c"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="down">
+                            <verse n="1">
+                      		    <syl>y</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_blanca_7.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>hol-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="do_negra_7.4"
+                                 pname="c"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		    <syl>y</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="re_blanca_7.4"
+                                 pname="d"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>hol-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                  </measure>
+                  <measure n="8" xml:id="compás_8" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="mi_blanca_8.1"
+                                 pname="e"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>gue</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="mi_negra_8.1"
+                                 pname="e"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="i">
+                            <verse n="1">
+                      		 <syl>mos,-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                              <note xml:id="do_blanca_8.2"
+                                    pname="c"
+                                    accid="s"
+                                    oct="4"
+                                    dur="2"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>gue-</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="do_negra_8.2"
+                                    pname="c"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up"
+                                    tie="i">
+                               <verse n="1">
+                      		    <syl>mos,-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="la_blanca_8.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		    <syl>gue-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_negra_8.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="i">
+                             <verse n="1">
+                      		    <syl>mos,-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="la_blanca_8.4"
+                                 pname="a"
+                                 oct="2"
+                                 dur="2"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>gue-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_negra_8.4"
+                                 pname="a"
+                                 oct="2"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="i">
+                             <verse n="1">
+                      		    <syl>mos,-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                  </measure>
+                   <measure n="9" xml:id="compás_9" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="mi_negra_9.1"
+                                 pname="e"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="t">
+                            <verse n="1">
+                      		 <syl>-</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="mi_negra_9.1"
+                                 pname="e"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>que</syl>
+                    	    </verse>
+                    	   </note>
+                            <note xml:id="fa_negra_9.1.2"
+                                 pname="f"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>ma-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                              <note xml:id="do_negra_9.2"
+                                    pname="c"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up"
+                                    tie="t">
+                                <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="do_negra_9.2"
+                                    pname="c"
+                                    accid="s"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up">
+                                <verse n="1">
+                      		    <syl>que</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="re_negra_9.2"
+                                    pname="d"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>ma-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="la_negra_9.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="t">
+                             <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_negra_9.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>que</syl>
+                    	      </verse>
+                    	   </note>
+                            <note xml:id="la_negra_9.3.2"
+                                 pname="a"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>ma-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="la_negra_9.4"
+                                 pname="a"
+                                 oct="2"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="t">
+                             <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_negra_9.4"
+                                 pname="a"
+                                 oct="2"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>que</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="re_negra_9.4.2"
+                                 pname="d"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>ma-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                  </measure>
+                   <measure n="10" xml:id="compás_10" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="la_blanca_10.1"
+                                 pname="a"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>ña-</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="sol_negra_10.1"
+                                 pname="g"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>na_a-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                              <note xml:id="fa_blanca_10.2"
+                                    pname="f"
+                                    oct="4"
+                                    dur="2"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>ña-</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="mi_negra_10.2"
+                                    pname="e"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>na_a-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="re_negra_10.3"
+                                 pname="d"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>ña-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="do_blanca_10.3"
+                                 pname="c"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>na_a</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="re_negra_10.4"
+                                 pname="d"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>ña-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="fa_negra_10.4"
+                                 pname="f"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="do_negra_10.4"
+                                 pname="c"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>na_a-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                  </measure>
+                  <measure n="11" xml:id="compás_11" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="fa_negra_11.1"
+                                 pname="f"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>yu-</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="mi_negra_11.1"
+                                 pname="e"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>na-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                              <note xml:id="re_blanca_11.2"
+                                    pname="d"
+                                    oct="4"
+                                    dur="2"
+                                    stem.dir="up">
+                                <verse n="1">
+                      		    <syl>yu-</syl>
+                    	      </verse>
+                    	   </note>
+                              <note xml:id="do_negra_11.2"
+                                    pname="c"
+                                    accid="s"
+                                    oct="4"
+                                    dur="4"
+                                    stem.dir="up">
+                               <verse n="1">
+                      		    <syl>na-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="la_blanca_11.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>yu-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_negra_11.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>na-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="re_negra_11.4"
+                                 pname="d"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>yu-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_blanca_11.4"
+                                 pname="a"
+                                 oct="2"
+                                 dur="2"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>na-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                  </measure>
+                   <measure n="12" xml:id="compás_12" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="re_blanca_12.1"
+                                 pname="d"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		 <syl>re-</syl>
+                    	    </verse>
+                    	   </note>
+                           <note xml:id="re_negra_12.1"
+                                 pname="d"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="i">
+                            <verse n="1">
+                      		 <syl>mos.-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <note xml:id="re_blanca_12.2"
+                                 pname="d"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up">
+                             <verse n="1">
+                      		    <syl>re-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="re_negra_12.2"
+                                 pname="d"
+                                 oct="4"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="i">
+                             <verse n="1">
+                      		    <syl>mos.-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="la_blanca_12.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="up">
+                            <verse n="1">
+                      		    <syl>re-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="la_negra_12.3"
+                                 pname="a"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="up"
+                                 tie="i">
+                             <verse n="1">
+                      		    <syl>mos.-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="re_blanca_12.4"
+                                 pname="d"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="down">
+                             <verse n="1">
+                      		    <syl>re-</syl>
+                    	      </verse>
+                    	   </note>
+                           <note xml:id="re_negra_12.4"
+                                 pname="d"
+                                 oct="3"
+                                 dur="4"
+                                 stem.dir="down"
+                                 tie="i">
+                             <verse n="1">
+                      		    <syl>mos.-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                  </measure> 
+                   <measure n="13" xml:id="compás_13" width="167">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="re_blanca_13.1"
+                                 pname="d"
+                                 dots="1"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up"
+                                 tie="t">
+                        <verse n="1">
+                      		 <syl>-</syl>
+                    	    </verse>
+                    	   </note>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                            <note xml:id="re_blanca_13.2"
+                                 pname="d"
+                                 dots="1"
+                                 oct="4"
+                                 dur="2"
+                                 stem.dir="up"
+                                 tie="t">
+                             <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <staff n="3">
+                        <layer n="1">
+                           <note xml:id="la_blanca_13.3"
+                                 pname="a"
+                                 dots="1"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="up"
+                                 tie="t">
+                            <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>         
+                      </staff>
+                      <staff n="4">
+                        <layer n="1">
+                           <note xml:id="re_blanca_13.4"
+                                 pname="d"
+                                 dots="1"
+                                 oct="3"
+                                 dur="2"
+                                 stem.dir="down"
+                                 tie="t">
+                            <verse n="1">
+                      		    <syl>-</syl>
+                    	      </verse>
+                    	   </note>
+                        </layer>
+                      </staff>
+                      <slur tstamp="1" curvedir="below" startid="#mi_negra_2.2" endid="#re_negra_3.2"
+                staff="2" tstamp2="1m+1"/>
+                      <slur tstamp="1" curvedir="below" startid="#do_negra_2.4" endid="#si_negra_3.4"
+                staff="4" tstamp2="1m+1"/>
+                      <slur tstamp="1" curvedir="above" startid="#re_negra_10.4" endid="#fa_negra_10.4"
+                staff="4" tstamp2="0m+2"/>
+                  </measure> 
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
