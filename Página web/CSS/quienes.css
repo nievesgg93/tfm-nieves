@@ -1,0 +1,154 @@
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+nav li {
+	color: blue;
+	font-size: 1em;
+	margin: 0 1em 0 0;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	font-family: Verdana, Geneva, sans-serif; 
+}
+nav li a:hover {
+	background: blue;
+	color: blue;
+	transform: scale(1.2) rotate(-5deg);
+}
+
+.navbar-dark {
+	background-color: black;
+}
+.navbar-brand {
+	color: blue; 
+}
+nav {
+	background-color: black;
+}
+
+li {
+  text-align: left; /* Corregir*/
+} 
+
+li a {
+  color: violet;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+#caja {
+	box-shadow: black 5px 5px 10px;
+	margin-top: 6px; 
+
+}
+
+.titulo {
+  font-family: Verdana, Geneva, sans-serif;
+  background:-webkit-linear-gradient(top, white, #0CF);
+  width: 50%;
+  border-radius: 10px;
+  margin: 15px auto;
+  text-align: center;
+  padding: 15px;
+  color: blue;
+  text-shadow: white 3px 2px 3px;
+
+}
+
+h1 {
+	font-family: Verdana Lucida Handwriting;
+	background:-webkit-linear-gradient(top, white, #0CF);
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+	background:-webkit-linear-gradient(top, white, #0CF);
+	border-radius: 10px;
+	margin: 15px auto;
+	text-align: center;
+	padding: 15px;
+	color: blue;
+	box-shadow: black 5px 5px 10px;
+	text-shadow: white 3px 2px 3px;
+	font-size: 3vw;
+	
+}
+
+body {
+  background-image: url("../imagenes/ramo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:50px 0px 0px 0px;
+  z-index:0;
+  height: 300px;
+  background-color: #EEB4DA;
+} 
+
+div.ex1 {
+	 font-family: sans-serif;
+     padding: 50px 100px;
+	 position: absolute;
+	 left: 220px;
+	 top: 270px;
+	 width: 900px;
+	 border-radius: 20px;
+}
+
+
+body {
+	padding:50px 0px 0px 0px;
+	z-index:0;
+}
+
+
+footer {
+  color: black;
+  text-align: center;
+  margin-top: 200px;
+  background-color: #EEB4DA;
+}
+.text-center {
+	text-decoration: none; 
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+} 
+
+
+
+table, th, td {
+  border: 3px solid black;
+  padding: 10px 3px;
+} 
+
+table {
+  border-spacing: 15px;
+
+} 
+.table1 {
+	
+	color: darkgreen;
+	border-radius: 20px;
+	width: 70%;
+	z-index: 1; 
+    margin-top: 5%; 
+	background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("../imagenes/ramo.jpeg");
+
+	
+} 
+.logo {
+	width: 30px; 
+	border-radius: 20%;
+	height: 30px;
+} 
+

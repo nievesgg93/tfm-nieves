@@ -1,0 +1,197 @@
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+nav li a {
+	color: blue;
+	font-size: 1em;
+	margin: 0 1em 0 0;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	font-family: Verdana, Geneva, sans-serif; 
+}
+nav li a:hover {
+	background: blue;
+	color: blue;
+	transform: scale(1.2) rotate(-5deg);
+}
+
+.navbar-dark {
+	background-color: black;
+}
+.navbar-brand {
+	color: white; 
+}
+nav {
+	background-color: black;
+}
+
+li {
+  text-align: left; 
+} 
+
+li a {
+  color: violet;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.titulo {
+  font-family: Verdana, Geneva, sans-serif;
+  background:-webkit-linear-gradient(top, white, #0CF);
+  width: 50%;
+  border-radius: 10px;
+  margin: 15px auto;
+  text-align: center;
+  padding: 15px;
+  color: blue;
+  text-shadow: white 3px 2px 3px;
+  font-size: 3vw;
+
+}
+
+h1 {
+	font-family: sans-serif Verdana Lucida Handwriting;
+	background:-webkit-linear-gradient(top, white, #0CF);
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+	background:-webkit-linear-gradient(top, white, #0CF);
+	border-radius: 10px;
+	margin: 15px auto;
+	text-align: center;
+	padding: 15px;
+	color: blue;
+	box-shadow: black 5px 5px 10px;
+	text-shadow: white 3px 2px 3px;
+	
+} 
+h1 {
+	font-family: Verdana Lucida Handwriting;
+	background:-webkit-linear-gradient(top, white, #0CF);
+	color: darkblue;
+	
+}
+
+
+body {
+  background-image: url("../imagenes/ramo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1100px;
+  padding:50px 0px 0px 0px;
+  z-index:0;
+  
+} 
+
+#caja {
+	box-shadow: black 5px 5px 10px;
+	margin-top: 6px; 
+
+}
+
+
+footer {
+  color: black;
+  text-align: center;
+  margin-top: 11px;
+  background-color: #EEB4DA;
+ 
+}
+
+.text-center {
+	text-decoration: none; 
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: purple;
+} 
+
+figure img {
+	padding: 4px;
+	position: absolute;
+	top: 295px;
+	right: 90px;
+	z-index: 1
+} 
+
+
+fieldset{
+	border-radius: 3px;
+	border: 1px solid #666;
+	margin-bottom: 30px;
+	margin-bottom: 10px; 
+	
+}
+
+legend{
+	font-size: 1.3em;
+	padding: 3px 6px;
+	color: #fff;
+	margin-bottom: 10px;
+	border-radius: 2px;
+} 
+
+.logo {
+	width: 30px; 
+	border-radius: 20%;
+	height: 30px;
+} 
+h2 {
+	text-align: center;
+	font-family: Verdana;
+	color: purple;
+}
+
+.form {
+	text-align: left;
+	font-family: Arial;
+	font-size: 16px;
+	color: purple;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	background-image: url("../imagenes/manoflor.jpg");
+	border-radius: 20px;
+	background-size: cover;
+	padding: 10px;  
+    margin-bottom: 10px; 	
+	
+} 
+
+
+.aspectosGenerales {
+	font-family: sans-serif;
+	color: purple;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-top: 30px;
+	/* margin-bottom:-10px;  */
+} 
+
+.datos {
+	top: 300px;
+	color: purple; 
+	margin-top: 20px; 
+	top: 300px; 
+	padding-top: 30px;
+	/* margin-bottom: 20px;  */
+}
+
+
+
+
